@@ -7,7 +7,8 @@ public class ButtonHandler : MonoBehaviour {
 
 	public GameObject Canvas;
 	public bool Paused ;
-	public GameObject Camera;
+
+	//public GameObject Camera;
 
 
 
@@ -30,24 +31,14 @@ public class ButtonHandler : MonoBehaviour {
 //			Time.timeScale = 0;
 		if (Input.GetKey ("escape")) {
 				
-			Debug.Log ("Escape");
+	     	//Debug.Log ("level one");
 			Canvas.gameObject.SetActive (true);
+
 			Cursor.visible = true;
+			Cursor.lockState = CursorLockMode.None;
 			//Application.Quit ();
 			Time.timeScale = 0;
 
-		
-			//Screen.lockCursor = true;
-					
-			//	Paused = false;
-//				} else {
-//					Time.timeScale = 0.0f;
-//					Canvas.gameObject.SetActive (true);
-//				Cursor.visible  = true;
-//					Screen.lockCursor = false;
-//
-//					Paused = true;
-//				}
 		}
 	}
 
@@ -58,7 +49,7 @@ public class ButtonHandler : MonoBehaviour {
 		Debug.Log ("Resume");
 		Paused = false;
 		Canvas.gameObject.SetActive (false);
-		Cursor.visible  = false;
+		//Cursor.visible  = false;
 		//Screen.lockCursor = true;
 
 		}
@@ -78,8 +69,17 @@ public class ButtonHandler : MonoBehaviour {
 		Application.LoadLevel("Main Menu");
 		Time.timeScale = 1;
 		Screen.lockCursor = false;
-		Cursor.visible  = true;
+		//Cursor.visible  = true;
 
+
+	}
+
+	public void RestartL2()
+
+	{
+
+		Application.LoadLevel ("Level2");
+		Time.timeScale = 1;
 
 	}
 

@@ -26,7 +26,7 @@ public class BulletFire : MonoBehaviour
 			Temporary_Bullet_Handler = Instantiate (Bullet, transform.position, transform.rotation) as GameObject;
 
 	
-			Temporary_Bullet_Handler.transform.Rotate (Vector3.right * Bullet_Forward_Force );
+			Temporary_Bullet_Handler.transform.Rotate (Vector3.left * Bullet_Forward_Force );
 
 			Rigidbody Temporary_RigidBody;
 			Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody> ();

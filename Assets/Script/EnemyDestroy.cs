@@ -17,12 +17,17 @@ public class EnemyDestroy : MonoBehaviour {
 
 		if(collision.gameObject.tag == "Bullet")
 		{
+
 			Debug.Log ("Destroy");
+
+
 			//Destroy (collision.gameObject);
 
 			ScoreText.score += scoreValue;
 
 			Destroy(this.gameObject);
+
+		
 
 
 

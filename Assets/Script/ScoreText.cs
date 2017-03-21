@@ -5,11 +5,15 @@ using System.Collections;
 public class ScoreText : MonoBehaviour
 {
 	public static int score;        
-	public Transform currentdoor;
-	Text text;                      
+//	public Transform currentdoor;
+	Text text;   
+	public string L1,L2,L3;
 
 	void Awake ()
 	{
+		L1 = "Level1";
+		L2 = "Level2";
+		L3 = "Level3";
 
 		text = GetComponent <Text> ();
 
@@ -20,15 +24,22 @@ public class ScoreText : MonoBehaviour
 
 	void Update ()
 	{
-		
+		//Debug.Log (Application.loadedLevelName);
 		text.text = "Score: " + score;
 
-		if (score >= 30) {
-			
-			currentdoor.localRotation = Quaternion.Slerp (currentdoor.localRotation, Quaternion.Euler (0, 90, 0), 3f);
+		if (score == 30 && Application.loadedLevelName == L1) {
+
+			//	currentdoor.localRotation = Quaternion.Slerp (currentdoor.localRotation, Quaternion.Euler (0, 90, 0), 3f);
 
 			Application.LoadLevel("Level2");}
-	}
+	
+		if (score == 40 && Application.loadedLevelName == L2) {
+
+		//	currentdoor.localRotation = Quaternion.Slerp (currentdoor.localRotation, Quaternion.Euler (0, 90, 0), 3f);
+
+		Application.LoadLevel("Level3");}
+}
+
 }
 
 

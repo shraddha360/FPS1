@@ -10,7 +10,7 @@ public class Play : MonoBehaviour {
 
 	{
 		Screen.lockCursor = false;
-		Cursor.visible  = true;
+		//Cursor.visible  = true;
 //		Application.LoadLevel("C#1");
 //		Time.timeScale = 0;
 		

@@ -46,8 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ButtonClick.cs" />
      <Compile Include="Assets\Script\BulletFire.cs" />
+     <Compile Include="Assets\Script\ButtonClick.cs" />
      <Compile Include="Assets\Script\ButtonHandler.cs" />
      <Compile Include="Assets\Script\Destroy.cs" />
      <Compile Include="Assets\Script\Door.cs" />
@@ -58,6 +58,8 @@
      <Compile Include="Assets\Script\Image.cs" />
      <Compile Include="Assets\Script\Play.cs" />
      <Compile Include="Assets\Script\ScoreText.cs" />
+     <Compile Include="Assets\Script\Timer.cs" />
+     <Compile Include="Assets\Script\TimerCount.cs" />
      <Compile Include="Assets\Script\first.cs" />
      <None Include="Assets\packages\3D Models\Props\Weapons\Ammunition\ReadMe.txt" />
      <None Include="Assets\packages\laxer tree pkg\README.txt" />
