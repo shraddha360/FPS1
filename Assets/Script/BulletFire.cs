@@ -20,12 +20,13 @@ public class BulletFire : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if (Input.GetKeyDown (KeyCode.F)) {
+		if (Input.GetMouseButtonDown(2)) {
+			Debug.Log ("press middle click");
 			GameObject Temporary_Bullet_Handler;
 			Temporary_Bullet_Handler = Instantiate (Bullet, transform.position, transform.rotation) as GameObject;
 
 	
-			Temporary_Bullet_Handler.transform.Rotate (Vector3.left * Bullet_Forward_Force );
+			Temporary_Bullet_Handler.transform.Rotate (Vector3.right * Bullet_Forward_Force );
 
 			Rigidbody Temporary_RigidBody;
 			Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody> ();

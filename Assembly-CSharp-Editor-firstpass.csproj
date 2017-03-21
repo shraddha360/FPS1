@@ -47,7 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <None Include="Assets\3D Models\Props\Weapons\Ammunition\ReadMe.txt" />
+     <None Include="Assets\packages\3D Models\Props\Weapons\Ammunition\ReadMe.txt" />
+     <None Include="Assets\packages\laxer tree pkg\README.txt" />
      <None Include="Assets\Objects\FreeMachineGun\Shader\BDCS.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Audio\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
