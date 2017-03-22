@@ -1,15 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/BulletFire.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/ScoreText.cs">
     <Files>
-      <File FileName="Assets/Script/first.cs" Line="8" Column="1" />
-      <File FileName="Assets/Script/DoorClose.cs" Line="7" Column="31" />
-      <File FileName="Assets/Script/EnterLevel2.cs" Line="9" Column="19" />
-      <File FileName="Assets/Script/Image.cs" Line="10" Column="3" />
-      <File FileName="Assets/Script/Play.cs" Line="28" Column="3" />
-      <File FileName="Assets/Script/ButtonHandler.cs" Line="79" Column="22" />
-      <File FileName="Assets/Script/ScoreText.cs" Line="33" Column="1" />
-      <File FileName="Assets/Script/BulletFire.cs" Line="29" Column="60" />
+      <File FileName="Assets/Script/EnemyHealth.cs" Line="21" Column="15" />
+      <File FileName="Assets/Script/TimerCount.cs" Line="20" Column="3" />
+      <File FileName="Assets/Script/EnemyDestroy.cs" Line="15" Column="23" />
+      <File FileName="Assets/Script/BulletFire.cs" Line="37" Column="6" />
+      <File FileName="Assets/Script/bulletDestrou.cs" Line="17" Column="29" />
+      <File FileName="Assets/Script/ButtonHandler.cs" Line="81" Column="50" />
+      <File FileName="Assets/Script/ScoreText.cs" Line="18" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

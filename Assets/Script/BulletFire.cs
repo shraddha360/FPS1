@@ -34,7 +34,7 @@ public class BulletFire : MonoBehaviour
 			Temporary_RigidBody.AddForce (transform.right  * Bullet_Forward_Force);
 
 
-			Destroy (Temporary_Bullet_Handler, 2.0f);
+			//Destroy (Temporary_Bullet_Handler, 2.0f);
 
 		
 		}

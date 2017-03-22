@@ -78,7 +78,7 @@ public class ButtonHandler : MonoBehaviour {
 
 	{
 
-		Application.LoadLevel ("Level2");
+		Application.LoadLevel(Application.loadedLevel);
 		Time.timeScale = 1;
 
 	}

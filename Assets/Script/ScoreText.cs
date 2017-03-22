@@ -7,13 +7,14 @@ public class ScoreText : MonoBehaviour
 	public static int score;        
 //	public Transform currentdoor;
 	Text text;   
-	public string L1,L2,L3;
+	public string L1,L2,L3,L4;
 
-	void Awake ()
+	void Start ()
 	{
 		L1 = "Level1";
 		L2 = "Level2";
 		L3 = "Level3";
+		L4 = "Level4";
 
 		text = GetComponent <Text> ();
 
@@ -38,6 +39,14 @@ public class ScoreText : MonoBehaviour
 		//	currentdoor.localRotation = Quaternion.Slerp (currentdoor.localRotation, Quaternion.Euler (0, 90, 0), 3f);
 
 		Application.LoadLevel("Level3");}
+
+
+
+		if (score == 70 && Application.loadedLevelName == L3) {
+
+			//	currentdoor.localRotation = Quaternion.Slerp (currentdoor.localRotation, Quaternion.Euler (0, 90, 0), 3f);
+
+			Application.LoadLevel("Level4");}
 }
 
 }

@@ -9,17 +9,26 @@ public class TimerCount : MonoBehaviour {
 	public float timeRemaining;
 	public bool TimesUp = false;
 	public Text text;
-
+	public string L1,L2,L3;
 	// Use this for initialization
 	void Start () {
 
+		L1 = "Level1";
+		L2 = "Level2";
+		L3 = "Level3";
 
 		text = GetComponent <Text> ();
 
 
+		if (Application.loadedLevelName == L2) {
 
+			timeRemaining = 50;
+		}
 
-		timeRemaining = 50;
+		if (Application.loadedLevelName == L3) {
+
+			timeRemaining = 120;
+		}
 
 		GameOver.gameObject.SetActive (false);
 
@@ -38,7 +47,8 @@ public class TimerCount : MonoBehaviour {
 		//Time.timeScale = 0;
 
 
-
+	
+			
 			if (timeRemaining > 0.0f ) {
 			timeRemaining -= Time.deltaTime;
 			text.text = "Time: " + timeRemaining;
