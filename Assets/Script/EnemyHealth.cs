@@ -7,6 +7,7 @@ public class EnemyHealth : MonoBehaviour {
 	public int scoreValue = 10;
 	public int health = 3;
 
+
 	// Use this for initialization
 	void Start () {
 

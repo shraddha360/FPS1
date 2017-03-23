@@ -52,9 +52,10 @@
      <Compile Include="Assets\Script\Destroy.cs" />
      <Compile Include="Assets\Script\Door.cs" />
      <Compile Include="Assets\Script\DoorClose.cs" />
-     <Compile Include="Assets\Script\EnemyAIScript.cs" />
+     <Compile Include="Assets\Script\EnemieMovement.cs" />
      <Compile Include="Assets\Script\EnemyDestroy.cs" />
      <Compile Include="Assets\Script\EnemyHealth.cs" />
+     <Compile Include="Assets\Script\EnemyM.cs" />
      <Compile Include="Assets\Script\EnterLevel2.cs" />
      <Compile Include="Assets\Script\Image.cs" />
      <Compile Include="Assets\Script\Play.cs" />
