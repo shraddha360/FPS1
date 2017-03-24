@@ -4,18 +4,41 @@ using System.Collections;
 
 public class ScoreText : MonoBehaviour
 {
+
+	public GameObject Canvas;
 	public static int score;        
 //	public Transform currentdoor;
 	Text text;   
-	public string L1,L2,L3,L4;
+	public string L1, L2, L3, L4,L5;
+	 
+	public GameObject Spidy;
+
+
 
 	void Start ()
+
 	{
+
 		L1 = "Level1";
 		L2 = "Level2";
 		L3 = "Level3";
 		L4 = "Level4";
+		L5 = "Level5";
 
+
+		if (Application.loadedLevelName == L5)
+		{
+			Spidy = GameObject.Find ("spider");
+
+			Spidy.SetActive (false);
+
+			Canvas = GameObject.Find ("End");
+			Canvas.SetActive (false);
+
+		}
+
+
+	
 		text = GetComponent <Text> ();
 
 
@@ -47,8 +70,36 @@ public class ScoreText : MonoBehaviour
 			//	currentdoor.localRotation = Quaternion.Slerp (currentdoor.localRotation, Quaternion.Euler (0, 90, 0), 3f);
 
 			Application.LoadLevel("Level4");}
+
+		if (score == 50 && Application.loadedLevelName == L4) {
+
+			//	currentdoor.localRotation = Quaternion.Slerp (currentdoor.localRotation, Quaternion.Euler (0, 90, 0), 3f);
+
+			Application.LoadLevel("Level5");}
+
+
+
+		if (score == 10 && Application.loadedLevelName == L5) {
+
+			Spidy.SetActive (true);
+
+		}
+
+		if (score == 100 && Application.loadedLevelName == L5) {
+		
+			Canvas.gameObject.SetActive (true);
+			Cursor.visible = true;
+			Cursor.lockState = CursorLockMode.None;
+			Time.timeScale = 0;
+		
+		}
+
+
+		
+		}
+		
 }
 
-}
+
 
 

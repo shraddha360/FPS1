@@ -9,14 +9,15 @@ public class TimerCount : MonoBehaviour {
 	public float timeRemaining;
 	public bool TimesUp = false;
 	public Text text;
-	public string L1,L2,L3,L4;
+	public string L1,L2,L3,L4,L5;
 	// Use this for initialization
 	void Start () {
 
 		L1 = "Level1";
 		L2 = "Level2";
 		L3 = "Level3";
-		L4 ="Level4";
+		L4 = "Level4";
+		L5 = "Level5";
 
 
 		text = GetComponent <Text> ();
@@ -37,7 +38,13 @@ public class TimerCount : MonoBehaviour {
 			timeRemaining = 180;
 		}
 
+		if (Application.loadedLevelName == L5) {
+
+			timeRemaining = 200;
+		}
+
 		GameOver.gameObject.SetActive (false);
+
 
 
 		

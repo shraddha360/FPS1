@@ -26,17 +26,12 @@ public class ButtonHandler : MonoBehaviour {
 
 	void Update(){
 	
-//		if(Input.GetKeyDown (KeyCode.Escape)) 
-//
-//			Time.timeScale = 0;
+
 		if (Input.GetKey ("escape")) {
 				
-	     	//Debug.Log ("level one");
 			Canvas.gameObject.SetActive (true);
-
 			Cursor.visible = true;
 			Cursor.lockState = CursorLockMode.None;
-			//Application.Quit ();
 			Time.timeScale = 0;
 
 		}
@@ -82,6 +77,8 @@ public class ButtonHandler : MonoBehaviour {
 		Time.timeScale = 1;
 
 	}
+
+
 
 
 //	void Resume(){

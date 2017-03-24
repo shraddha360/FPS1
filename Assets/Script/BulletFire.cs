@@ -20,7 +20,7 @@ public class BulletFire : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if (Input.GetMouseButtonDown(2)) {
+		if (Input.GetMouseButtonDown(0)) {
 			Debug.Log ("press middle click");
 			GameObject Temporary_Bullet_Handler;
 			Temporary_Bullet_Handler = Instantiate (Bullet, transform.position, transform.rotation) as GameObject;

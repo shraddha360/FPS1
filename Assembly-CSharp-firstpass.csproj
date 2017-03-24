@@ -92,6 +92,7 @@
      <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <None Include="Assets\packages\3D Models\Props\Weapons\Ammunition\ReadMe.txt" />
      <None Include="Assets\packages\laxer tree pkg\README.txt" />
+     <None Include="Assets\packages\PB_Spider\readme.txt" />
      <None Include="Assets\Objects\FreeMachineGun\Shader\BDCS.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Audio\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />

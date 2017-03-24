@@ -16,7 +16,7 @@ public class EnemyM : MonoBehaviour {
 	// Update is called once per frame
 	public void Update () {
 
-		transform.Translate (0, 0, 20 * Time.deltaTime);
+		transform.Translate (0, 0, 10 * Time.deltaTime);
 
 
 		//		transform.position += transform.forward * Time.deltaTime;
@@ -26,7 +26,9 @@ public class EnemyM : MonoBehaviour {
 
 	}
 
-	void OnCollisionEnter(Collision col){
+	void OnTriggerEnter(Collider col){
+
+	
 
 		if (col.gameObject.tag == "wall") {
 

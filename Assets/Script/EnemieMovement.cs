@@ -16,7 +16,7 @@ public class EnemieMovement : MonoBehaviour {
 	// Update is called once per frame
 	public void Update () {
 		
-	transform.Translate (0, 0, 20 * Time.deltaTime);
+	transform.Translate (0, 0, 10 * Time.deltaTime);
 
 
 //		transform.position += transform.forward * Time.deltaTime;
@@ -26,22 +26,36 @@ public class EnemieMovement : MonoBehaviour {
 
 		}
 
-	void OnCollisionEnter(Collision col){
-	
-		if (col.gameObject.tag == "wall") {
-			
+//	void OnCollisionEnter(Collision col){
+//	
+//		if (col.gameObject.tag == "wall") {
+//			
+//
+//			zRotation = Input.GetAxis ("Horizontal");
+//
+//			transform.eulerAngles = new Vector3 (0, 180, zRotation);
+//			
+//		}
 
-			zRotation += Input.GetAxis ("Horizontal");
+	void OnTriggerEnter(Collider col){
 
-			transform.eulerAngles = new Vector3 (0, 180, zRotation);
-			
-		}
+		Debug.Log ("Collid");
 
-		if(col.gameObject.tag=="wall1")
+			if (col.gameObject.tag == "wall") {
+
+
+				zRotation = Input.GetAxis ("Horizontal");
+
+				transform.eulerAngles = new Vector3 (0, 180, zRotation);
+
+
+			}
+
+		   if(col.gameObject.tag=="wall1")
 		{
 
 
-					zRotation += Input.GetAxis("Horizontal");
+					zRotation = Input.GetAxis("Horizontal");
 
 					transform.eulerAngles = new Vector3(0,0, zRotation);
 

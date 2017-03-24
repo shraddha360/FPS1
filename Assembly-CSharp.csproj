@@ -55,24 +55,70 @@
      <Compile Include="Assets\Script\EnemieMovement.cs" />
      <Compile Include="Assets\Script\EnemyDestroy.cs" />
      <Compile Include="Assets\Script\EnemyHealth.cs" />
+     <Compile Include="Assets\Script\EnemyHealth4.cs" />
      <Compile Include="Assets\Script\EnemyM.cs" />
      <Compile Include="Assets\Script\EnterLevel2.cs" />
-     <Compile Include="Assets\Script\Image.cs" />
      <Compile Include="Assets\Script\Play.cs" />
      <Compile Include="Assets\Script\ScoreText.cs" />
      <Compile Include="Assets\Script\Timer.cs" />
      <Compile Include="Assets\Script\TimerCount.cs" />
      <Compile Include="Assets\Script\bulletDestrou.cs" />
      <Compile Include="Assets\Script\first.cs" />
+     <Compile Include="Assets\Script\spidyDestroy.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Texture\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <None Include="Assets\packages\3D Models\Props\Weapons\Ammunition\ReadMe.txt" />
      <None Include="Assets\packages\laxer tree pkg\README.txt" />
+     <None Include="Assets\packages\PB_Spider\readme.txt" />
      <None Include="Assets\Objects\FreeMachineGun\Shader\BDCS.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Texture\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Audio\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
      <None Include="Assets\Objects\FreeMachineGun\documentation.txt" />
-     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Texture\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Texture\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Texture\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -91,10 +137,6 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A5AAEE1E-1645-52DE-D126-7AA5FF4B2B3B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
