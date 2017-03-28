@@ -142,6 +142,8 @@ public class ButtonHandler : MonoBehaviour {
 			Time.timeScale = 1;
 
 		}
+
+
 	}
 
 }
